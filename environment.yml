@@ -1,0 +1,29 @@
+name: musicai
+channels:
+  - conda-forge
+  - anaconda
+  - defaults
+dependencies:
+  - python=3.7
+  - numpy
+  - matplotlib
+  - pandas
+  - seaborn
+  - jupyterlab
+  - scikit-learn
+  - nb_conda_kernels
+  - ipykernel
+  - pydub
+  - pip
+  - pip:
+      - tensorflow
+      - librosa
+      - xgboost
+      - lightgbm
+      - hyperopt
+      - bayesian-optimization
+      - scikit-optimize
+      - audiomentations
+      - kapre
+      - pydub
+
